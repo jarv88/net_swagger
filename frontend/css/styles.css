@@ -1,0 +1,114 @@
+#tablaClientes {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tablaClientes td, #tablaClientes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tablaClientes tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tablaClientes tr:hover {background-color: #ddd;}
+  
+  #tablaClientes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+  
+/*<button class="button-editar" role="button">Button 7</button>
+
+/* CSS */
+.button-editar {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-editar:hover,
+.button-editar:focus {
+  background-color: #07c;
+}
+
+.button-editar:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-editar:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+.button-eliminar {
+    background-color: #f00808;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .button-eliminar:hover,
+  .button-eliminar:focus {
+    background-color: rgba(214, 81, 4, 0.719);
+  }
+  
+  .button-eliminar:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .button-eliminar:active {
+    background-color: #e63333;
+    box-shadow: none;
+  }
