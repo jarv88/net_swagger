@@ -22,7 +22,7 @@ async function cargarClientes(){
     for(user of content){
     let telefono = user.telefono == null ? "-" : user.telefono;
     //let botonEliminar = `<a href="#" onclick=deleteUsuario(${user.id}) class="btn btn-danger btn-circle"><i class="fas fa-trash"></i></a>`
-    let botones = `<button class="button-editar">Editar</button> <button class="button-eliminar">Eliminar</button>`
+    let botones = `<button class="button-editar" onclick='statusModal()'>Editar</button> <button class="button-eliminar">Eliminar</button>`
     usuario = usuario + `<tr><td>${user.nombre}</td><td>${user.apellido}</td><td>${telefono}</td><td>${user.email}</td><td>${botones}</td></tr>`
     //console.log(user.full_name);
     }
@@ -33,3 +33,5 @@ async function cargarClientes(){
 }
 
 cargarClientes()
+
+
